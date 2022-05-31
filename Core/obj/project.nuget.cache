@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "nKA8WUT9qY2kGyvCUS1EvTrGMvVjk0+NU3703f1NkTYI9A64Gi2S48f/s9F4UsOlxHiJ3eIdxCiGwPFU6MvR1Q==",
+  "success": true,
+  "projectFilePath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/cfndiaye/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "/Users/cfndiaye/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
