@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj": {}
+    "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj": {
+    "/workspaces/Multitenant/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj",
+        "projectUniqueName": "/workspaces/Multitenant/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj",
-        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
-        "outputPath": "/Users/cfndiaye/Projects/Multitenant/Core/obj/",
+        "projectPath": "/workspaces/Multitenant/Core/Core.csproj",
+        "packagesPath": "/var/nuget",
+        "outputPath": "/workspaces/Multitenant/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -62,21 +62,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj": {
+    "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
-        "outputPath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/obj/",
+        "projectPath": "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/var/nuget",
+        "outputPath": "/workspaces/Multitenant/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/cfndiaye/.nuget/NuGet/NuGet.Config"
+          "/home/codespace/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -88,8 +88,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj": {
-                "projectPath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj"
+              "/workspaces/Multitenant/Core/Core.csproj": {
+                "projectPath": "/workspaces/Multitenant/Core/Core.csproj"
               }
             }
           }
@@ -178,7 +178,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
         }
       }
     }
