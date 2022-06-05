@@ -15,7 +15,7 @@ namespace Multitenant.api.Controllers
             _service = service;
         }
 
-        [HttpGet]
+        [HttpGet("{id}")]
         public async Task<IActionResult> GetAsync(int id)
         {
             var productDetails = await _service.GetByIdAsync(id);
@@ -25,6 +25,12 @@ namespace Multitenant.api.Controllers
         public async Task<IActionResult> CreatAsync(CreateProductRequest request)
         {
             return Ok(await _service.CreatAsync(request.Name, request.Description, request.Rate));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAsync()
+        {
+            return Ok(await _service.GetAllAsync());
         }
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/Multitenant/Multitenant.api/Multitenant.api.csproj": {}
+    "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/Multitenant.api.csproj": {}
   },
   "projects": {
-    "/workspaces/Multitenant/Core/Core.csproj": {
+    "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Multitenant/Core/Core.csproj",
+        "projectUniqueName": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj",
         "projectName": "Core",
-        "projectPath": "/workspaces/Multitenant/Core/Core.csproj",
-        "packagesPath": "/var/nuget",
-        "outputPath": "/workspaces/Multitenant/Core/obj/",
+        "projectPath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj",
+        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
+        "outputPath": "/Users/cfndiaye/Projects/Multitenant/Core/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/cfndiaye/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -47,36 +47,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj": {
+    "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj",
+        "projectUniqueName": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj",
-        "packagesPath": "/var/nuget",
-        "outputPath": "/workspaces/Multitenant/Infrastructure/obj/",
+        "projectPath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj",
+        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
+        "outputPath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/cfndiaye/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -88,8 +78,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/workspaces/Multitenant/Core/Core.csproj": {
-                "projectPath": "/workspaces/Multitenant/Core/Core.csproj"
+              "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj": {
+                "projectPath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj"
               }
             }
           }
@@ -163,36 +153,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/workspaces/Multitenant/Multitenant.api/Multitenant.api.csproj": {
+    "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/Multitenant.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/Multitenant/Multitenant.api/Multitenant.api.csproj",
+        "projectUniqueName": "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/Multitenant.api.csproj",
         "projectName": "Multitenant.api",
-        "projectPath": "/workspaces/Multitenant/Multitenant.api/Multitenant.api.csproj",
-        "packagesPath": "/var/nuget",
-        "outputPath": "/workspaces/Multitenant/Multitenant.api/obj/",
+        "projectPath": "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/Multitenant.api.csproj",
+        "packagesPath": "/Users/cfndiaye/.nuget/packages/",
+        "outputPath": "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/Users/cfndiaye/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -204,11 +184,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "/workspaces/Multitenant/Core/Core.csproj": {
-                "projectPath": "/workspaces/Multitenant/Core/Core.csproj"
+              "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj": {
+                "projectPath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj"
               },
-              "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj": {
-                "projectPath": "/workspaces/Multitenant/Infrastructure/Infrastructure.csproj"
+              "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj": {
+                "projectPath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj"
               }
             }
           }
@@ -250,20 +230,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[5.0.15, 5.0.15]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -272,7 +238,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/opt/dotnet/6.0.201/sdk/6.0.201/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
         }
       }
     }
