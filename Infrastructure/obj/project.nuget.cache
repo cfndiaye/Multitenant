@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "KV8eiXsRqt0R0/79zvSTifUvF/vHZKUF/9MFdOIvev2MBYFdb9ozrN+fSOKAfPI7AfXTphA+rQsn46dDIv3+Yg==",
+  "dgSpecHash": "1gpTqvpvLuZo7iMkHA9eA7wXM2zeHYyXkd04Q687JKnKrjOVSdoSbP2grKOXHDGEQ8hMB8cAzLAVcXQ3mtsfqg==",
   "success": true,
   "projectFilePath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -105,9 +105,7 @@
     "/Users/cfndiaye/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/Users/cfndiaye/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/Users/cfndiaye/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/Users/cfndiaye/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "/Users/cfndiaye/.nuget/packages/microsoft.netcore.app.ref/5.0.0/microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
-    "/Users/cfndiaye/.nuget/packages/microsoft.aspnetcore.app.ref/5.0.0/microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+    "/Users/cfndiaye/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }
