@@ -6025,35 +6025,47 @@
     ]
   },
   "packageFolders": {
-    "/Users/cfndiaye/.nuget/packages/": {}
+    "C:\\Users\\cfndi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/Multitenant.api.csproj",
+      "projectUniqueName": "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Multitenant.api\\Multitenant.api.csproj",
       "projectName": "Multitenant.api",
-      "projectPath": "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/Multitenant.api.csproj",
-      "packagesPath": "/Users/cfndiaye/.nuget/packages/",
-      "outputPath": "/Users/cfndiaye/Projects/Multitenant/Multitenant.api/obj/",
+      "projectPath": "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Multitenant.api\\Multitenant.api.csproj",
+      "packagesPath": "C:\\Users\\cfndi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Multitenant.api\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/cfndiaye/.config/NuGet/NuGet.Config"
+        "C:\\Users\\cfndi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj": {
-              "projectPath": "/Users/cfndiaye/Projects/Multitenant/Core/Core.csproj"
+            "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Core\\Core.csproj"
             },
-            "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/cfndiaye/Projects/Multitenant/Infrastructure/Infrastructure.csproj"
+            "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\cfndi\\source\\repos\\Multitenant\\Multitenant\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }
@@ -6103,7 +6115,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.105/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

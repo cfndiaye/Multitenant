@@ -20,7 +20,7 @@ namespace Infrastructure.Services
             _httpContext = contextAccessor.HttpContext;
             if(_httpContext != null)
             {
-                if(_httpContext.Request.Headers.TryGetValue("tenat", out var tenantId))
+                if(_httpContext.Request.Headers.TryGetValue("tenant", out var tenantId))
                 {
                     SetTenant(tenantId);
                 }
